@@ -70,7 +70,7 @@ void Fn_Custom(DataSet* ds,void* data){
 }
 
 void Setup(AlxWindow* w){
-    RGA_Set(Time_Nano());
+    Random_Set(Time_Nano());
 
     sp = GSprite_Null();
     font = AlxFont_MAKE_HIGH(12,24);
